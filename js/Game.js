@@ -140,15 +140,15 @@ class Game {
            //this.showRank();
          } 
          if (keyIsDown(UP_ARROW)) {
-          player.positionY += 10;
+          player.positionY += 7;
           player.update();
         }
       if (keyIsDown(LEFT_ARROW)) {
-          player.positionY += 10;
+          player.positionX -= 4;
           player.update();
         }
       if (keyIsDown(RIGHT_ARROW)) {
-          player.positionY += 10;
+          player.positionX += 4;
           player.update();
         }
          drawSprites();}}
@@ -223,4 +223,5 @@ class Game {
     });
   }
 }
+
 
