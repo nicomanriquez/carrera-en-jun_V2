@@ -143,6 +143,14 @@ class Game {
           player.positionY += 10;
           player.update();
         }
+      if (keyIsDown(LEFT_ARROW)) {
+          player.positionY += 10;
+          player.update();
+        }
+      if (keyIsDown(RIGHT_ARROW)) {
+          player.positionY += 10;
+          player.update();
+        }
          drawSprites();}}
 
   showLeaderboard() 
@@ -215,3 +223,4 @@ class Game {
     });
   }
 }
+
